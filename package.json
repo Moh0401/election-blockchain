@@ -1,0 +1,20 @@
+{
+  "name": "election-blockchain",
+  "version": "1.0.0",
+  "description": "ElectionRegistry smart contract tests",
+  "main": "hardhat.config.cjs",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-chai-matchers": "hh2",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "ethers": "^6.16.0",
+    "hardhat": "^2.28.6"
+  }
+}
